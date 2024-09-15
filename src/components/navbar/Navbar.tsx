@@ -12,8 +12,6 @@ const Navbar = () => {
 
     const [dropdownVisibility, setDropdownVisibility] = useState<boolean>(false)
 
-    const toggleDropdownVisibility = () => { setDropdownVisibility((prev) => !prev) }
-
     const closeNavMenu = () => {
         setMobileNavMenu(false)
     }
